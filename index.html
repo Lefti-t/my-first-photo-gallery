@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,500&family=Montserrat:ital,wght@0,200;1,100&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="viewer">
+            <div class="slider">
+                <div class="arrow" id="arrow_left"><img src="images/arrow.png" alt=""> </div>
+                <div class="arrow" id="arrow_right"><img src="images/arrow.png" alt=""></div>   
+                <div class="active_photo"></div>
+                    <img id="photo" src="">
+                 <div class="transparent-container"></div>
+                <div class="text">
+                    <h1 id="title"></h1>
+                    <p id="description"></p>
+                </div>
+                    
+             
+                
+            </div>
+        
+
+                <div class="thumbnails">
+                    <img class='image' src="" id='ikaria' data-number="0">
+                    <img class='image'src="" id='ausangate' data-number="1">
+                    <img class='image' src="" id='colca' data-number="2">
+                    <img class='image' src="" id='camping' data-number="3">
+                    <img class='image'src="" id='galaxy' data-number="4">
+                    <img class='image' src="" id='startrails' data-number="5">
+                </div>
+        </div>
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
